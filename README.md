@@ -34,8 +34,6 @@ Fine-grained image classification of 37 cat and dog breeds. The model starts fro
 
 The train/validation split is **stratified** by breed (`random_state=42`), so every class appears in both parts in the same proportions. Classes are nearly balanced, with 93 to 100 trainval images per breed.
 
-The dataset also provides pixel-level trimaps (pet / background / border). This study does not use them yet (see [Future work](#future-work)).
-
 ---
 
 ## Method
