@@ -173,15 +173,7 @@ Python, NumPy and PyTorch seeds are fixed (`SEED = 42`), and the train/validatio
 
 ---
 
-## Future work
 
-- **Stronger backbones:** `convnext_tiny` or `efficientnet_v2_s` (torchvision or `timm`) usually add a few points.
-- **Ablation:** report the linear probe (stage 1 only) against full fine-tuning as a formal baseline comparison.
-- **Interpretability:** use Grad-CAM (`pytorch-grad-cam`) to check that the model attends to the animal rather than the background, especially for the bully-breed confusions.
-- **Use the trimaps:** train a multi-task model with `target_types=["category", "segmentation"]`, or crop to the animal before classifying.
-- **Test-time augmentation:** average predictions over a horizontal flip for a cheap improvement.
-
----
 
 ## References
 
